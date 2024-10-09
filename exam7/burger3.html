@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box-1 {
+            height: 100%;
+            width: 47%;
+            background-color: black;
+            border: 2px solid rgb(238, 6, 6);
+            margin-left: 400px;
+            overflow: hidden;
+        }
+
+        body {
+            background-color: red;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        img {
+            margin-left: 163px;
+            margin-top: 51px;
+        }
+
+        .img2 {
+            position: absolute;
+            bottom: 398px;
+            left: 29%;
+            z-index: 100;
+        }
+
+        .p1 {
+            position: absolute;
+            bottom: 621px;
+            left: 46%;
+            z-index: 100;
+            font-size: 42px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: yellow;
+        }
+
+        .p2 {
+            position: absolute;
+            bottom: 577px;
+            left: 662px;
+            z-index: 100;
+            font-size: 42px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: yellow;
+        }
+
+        .p3 {
+            position: absolute;
+            bottom: 541px;
+            left: 649px;
+            z-index: 100;
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(248, 248, 245);
+        }
+
+        .p4 {
+            position: absolute;
+            bottom: 512px;
+            left: 42.5%;
+            z-index: 100;
+            font-size: 17px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(242, 242, 236);
+        }
+
+        .box2 {
+            position: absolute;
+            bottom: 487px;
+            left: 48%;
+            z-index: 100;
+            height: 8px;
+            width: 9px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        .box3 {
+            position: absolute;
+            bottom: 487px;
+            left: 762px;
+            z-index: 100;
+            height: 8px;
+            width: 9px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        .box4 {
+            position: absolute;
+            bottom: 487px;
+            left: 787px;
+            z-index: 100;
+            height: 8px;
+            width: 9px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        .box5 {
+            position: absolute;
+            bottom: 487px;
+            left: 810px;
+            z-index: 100;
+            height: 8px;
+            width: 9px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        .p5 {
+            position: absolute;
+            bottom: 457px;
+            left: 694px;
+            z-index: 100;
+            font-size: 14px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(248, 248, 245);
+        }
+
+        .p6 {
+            position: absolute;
+            bottom: 439px;
+            left: 707px;
+            z-index: 100;
+            font-size: 14px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(248, 248, 245);
+        }
+
+        .box6 {
+            height: 47px;
+            width: 50px;
+            background-color: black;
+            border: 7px solid red;
+            border-radius: 50%;
+            position: absolute;
+            top: 75px;
+            left: 878px;
+            z-index: 100;
+        }
+
+        .box7 {
+            height: 26px;
+            width: 26px;
+            background-color: black;
+            border: 4px solid red;
+            border-radius: 50%;
+            position: absolute;
+            top: 173px;
+            left: 595px;
+            z-index: 100;
+        }
+
+        .box8 {
+            height: 25px;
+            width: 25px;
+            background-color: rgb(255, 4, 4);
+            border-radius: 50%;
+            position: absolute;
+            top: 285px;
+            left: 662px;
+            z-index: 100;
+        }
+
+        .img3 {
+            position: absolute;
+            bottom: 420px;
+            left: 408px;
+
+        }
+
+        .box9 {
+            height: 55px;
+            width: 55px;
+            background-color: rgb(255, 4, 4);
+            border-radius: 50%;
+            position: absolute;
+            top: 28px;
+            left: 1036px;
+
+        }
+
+        .box10 {
+            height: 33px;
+            width: 33px;
+            border-radius: 50%;
+            position: absolute;
+            top: 17px;
+            left: 1025px;
+            border: 4px solid rgb(255, 255, 0);
+        }
+
+        .box11 {
+            height: 116px;
+            width: 117px;
+            border-radius: 50%;
+            position: absolute;
+            top: 453px;
+            left: 894px;
+            border: 4px solid rgb(255, 255, 255);
+        }
+
+        .box12 {
+            height: 88px;
+            width: 88px;
+            border-radius: 50%;
+            position: absolute;
+            top: 471px;
+            left: 912px;
+            background-color: yellow;
+        }
+
+        .box13 {
+            height: 33px;
+            width: 33px;
+            border-radius: 50%;
+            position: absolute;
+            top: 480px;
+            left: 883px;
+            background-color: white;
+        }
+
+        h1 {
+            font-size: 21px;
+            color: black;
+            padding-left: 14px;
+            padding-top: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: black;
+            padding-left: 17px;
+            padding-top: -2px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .imgg {
+            position: absolute;
+            top: -49px;
+            left: 254px;
+        }
+
+        .box14 {
+            height: 264px;
+            width: 328px;
+            border-radius: 50%;
+            position: absolute;
+            top: 638px;
+            left: 608px;
+            background-color: rgb(251, 3, 3);
+            
+        }
+
+        .main {
+            position: relative;
+            overflow: hidden;
+            
+        }
+        
+        h3 {
+            font-size: 18px;
+            color: white;
+            margin-left: 101px;
+            margin-top: 20px;
+        }
+
+        .mgi {
+            position: absolute;
+            top: -5px;
+            left: -60px;
+        }
+
+        .mgi2 {
+            position: absolute;
+            top: -5px;
+            left: -26px;
+        }
+
+        .mgi3 {
+            position: absolute;
+            top: -4px;
+            left: 7px;
+        }
+
+        .mgi4 {
+            position: absolute;
+            top: -4px;
+            left: 41px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="box-1">
+            <img class="imgg" src="burger-logo-design-vector.jpg" alt="" height="100px" width="130px">
+            <img class="img" src="Place Your Image Here (Double Click to Edit) (2).png" alt="" height="93%" width="62%">
+            <img class="img2" src="Line Circle Shape.png" alt="" height="43%" width="21%">
+            <p class="p1">PLACE <br>
+                <p class="p2">YOUR TITLE</p>
+                <p class="p3"><i>Lorem Ipsum Dolor</i></p>
+                <p class="p4">AMAZING SLOGAN GOSE HERE</p>
+            </div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+            <div class="box5"></div>
+            <p class="p5"><i>Lorem ipsum dolor sit amet,</i></p>
+            <p class="p6"><i>consectetur elit,sad do.</i></p>
+            <div class="box6"></div>
+            <div class="box7"></div>
+            <div class="box8"></div>
+            <img class="img3" src="Vector Smart Object.png" alt="" height="95px" width="95px">
+            <div class="box9"></div>
+            <div class="box10"></div>
+            <div class="box11"></div>
+            <div class="box12">
+                <h1><i>ONLY</i></h1>
+                <h2>$9,99</h2>
+            </div>
+            <div class="box13"></div>
+            <div class="box14">
+            <h3>yourwebsite.com</h3>
+            <img class="mgi" src="iinssta.png" alt="" height="27px" width="27px">
+            <img class="mgi2" src="fea2.png" alt="" height="27px" width="27px">
+            <img class="mgi3" src="Twitter.png" alt="" height="27px" width="27px">
+            <img class="mgi4" src="WhatsApp.png" alt="" height="27px" width="27px">
+            </div>
+            
+        </div>
+            
+        </body>
+        
+        </html>
